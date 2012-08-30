@@ -3,8 +3,8 @@ require_once 'bootstrap.php';
 
 // Create our Application instance (replace this with your appId and secret).
 $facebook = new Facebook(array(
-  'appId'  => Config::appId,
-  'secret' => Config::secret,
+  'appId'  => Config::$appId,
+  'secret' => Config::$secret,
 ));
 
 // Get User ID
