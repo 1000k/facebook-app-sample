@@ -36,11 +36,11 @@ if ($user) {
     <h1>PHP SDK Sample 2</h1>
 
     <?php if ($user): ?>
-      <a href="<?php echo $logoutUrl; ?>">Logout</a>
+      <a href="<?php echo $logoutUrl; ?>" class="btn">Logout</a>
     <?php else: ?>
       <div>
         Login using OAuth 2.0 handled by the PHP SDK:
-        <a href="<?php echo $loginUrl; ?>">Login with Facebook</a>
+        <a href="<?php echo $loginUrl; ?>" class="btn">Login with Facebook</a>
       </div>
     <?php endif ?>
 
