@@ -12,7 +12,7 @@ $facebook = new Facebook(array(
   'secret' => Config::$secret,
 ));
 
-$facebook->getLogoutUrl(array(
+$logoutUrl = $facebook->getLogoutUrl(array(
     'next' => $_SERVER['HTTP_REFERER']
 ));
 $facebook->destroySession();

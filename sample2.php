@@ -56,6 +56,7 @@ if ($user) {
 
       <h3>Your User Object (/me)</h3>
       <pre><?php print_r($user_profile); ?></pre>
+      <pre><?php print_r($customs); ?></pre>
     <?php else: ?>
       <strong><em>You are not Connected.</em></strong>
     <?php endif ?>
